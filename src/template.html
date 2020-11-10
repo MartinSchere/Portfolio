@@ -1,14 +1,3 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Put here your site title -->
-    <title>[Your name here] | Developer</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <title>Martín Schere | Developer</title>
+    <meta
+      name="keywords"
+      content="[MartinSchere], [Martin], backend developer, backend, frontend, react, django, graphql, fullstack"
+    />
+    <meta name="description" content="[Martín Schere] | Web developer" />
 
-    <!-- Required librarys -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -34,66 +22,143 @@
       ScrollReveal({ reset: false });
     </script>
 
-    <!-- Remove this script once you setup your custom portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
-
-    <!-- **** Hero Section **** -->
+    <nav class="container navbar-top">
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+    </nav>
     <div id="hero" class="jumbotron">
-      <div class="container">
+      <div class="container mb-3">
         <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main">Martín</span>
           <br />
-          I'm the Unknown Developer.
+          I'm a fullstack developer.
         </h1>
         <p class="hero-cta" class="load-hidden">
           <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
         </p>
       </div>
     </div>
-    <!-- /END Hero Section -->
-
-    <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title">
-          About me
-        </h2>
+        <h2 class="section-title">About me</h2>
         <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.jpg"
-                alt="Profile Image"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
+          <div class="col-sm-12 col-md-6">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
-                earum dolor voluptatum consequatur blanditiis inventore debitis
-                fuga numquam voluptate architecto itaque molestiae.
+                My name is Martín and I'm a fullstack / backend developer. I
+                have a passion for the world of development and creation.
               </p>
               <p class="about-wrapper__info-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
-                earum dolor voluptatum consequatur blanditiis inventore debitis
-                fuga numquam voluptate architecto itaque molestiae.
+                I'm all about improving. If I'm the smartest person in the room,
+                then I'm in the wrong room. I've been coding for years and I
+                firmly believe that it's impossible to know everything about
+                software. That's why I consider myself a team player and a
+                collaborative developer.
               </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
+              <span class="d-flex">
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--resume mt-3"
+                  href="#!"
+                >
                   View Resume
                 </a>
               </span>
+            </div>
+          </div>
+          <div class="col-md-6 skills">
+            <h2 class="about-wrapper__info-title font-weight-bold">
+              Main skills:
+            </h2>
+            <div class="stack-list bg-white pt-3 d-inline-block">
+              <span
+                class="iconify"
+                data-icon="logos:python"
+                data-inline="false"
+              ></span
+              ><span
+                class="iconify"
+                data-icon="logos:javascript"
+                data-inline="false"
+              ></span
+              ><span
+                class="iconify"
+                data-icon="logos:typescript-icon"
+                data-inline="false"
+              ></span
+              ><br /><span
+                class="iconify"
+                data-icon="vscode-icons:file-type-html"
+                data-inline="false"
+              ></span
+              ><span
+                class="iconify"
+                data-icon="vscode-icons:file-type-css"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="vscode-icons:file-type-sass"
+                data-inline="false"
+              ></span
+              ><span
+                class="iconify"
+                data-icon="logos:bootstrap"
+                data-inline="false"
+              ></span>
+              <br />
+              <span
+                class="iconify"
+                data-icon="logos:django"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="logos:react"
+                data-inline="false"
+              ></span
+              ><span
+                class="iconify"
+                data-icon="vscode-icons:file-type-light-expo"
+                data-inline="false"
+              ></span
+              ><br /><span
+                class="iconify"
+                data-icon="logos:graphql"
+                data-inline="false"
+              ></span
+              ><span
+                class="iconify"
+                data-icon="vscode-icons:file-type-rest"
+                data-inline="false"
+              ></span
+              ><br />
+              <span
+                class="iconify"
+                data-icon="logos:postgresql"
+                data-inline="false"
+              ></span
+              ><span
+                class="iconify"
+                data-icon="logos:mysql"
+                data-inline="false"
+              ></span
+              ><br /><span
+                class="iconify"
+                data-icon="logos:github-icon"
+                data-inline="false"
+              ></span
+              ><span
+                class="iconify"
+                data-icon="logos:git-icon"
+                data-inline="false"
+              ></span>
             </div>
           </div>
         </div>
@@ -105,37 +170,70 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
+          <h2 class="section-title dark-blue-text">Projects</h2>
 
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
+                <h3 class="project-wrapper__text-title">Realtool</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Realtool is a property and finance management software where
+                    real estate investors can keep track of their real estate,
+                    calculate mortgage payments, determine equity, get value
+                    estimations and more.
                   </p>
+                  <h4>Technologies used:</h4>
+                  <div class="stack-list">
+                    <span
+                      class="iconify"
+                      data-icon="logos:django"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="vscode-icons:file-type-html"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="vscode-icons:file-type-sass"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="logos:postgresql"
+                      data-inline="false"
+                    ></span
+                    ><span
+                      class="iconify"
+                      data-icon="logos:heroku-icon"
+                      data-inline="false"
+                    ></span>
+                  </div>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://realtool-demo.herokuapp.com/"
+                >
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/MartinSchere/real_estate_tool"
+                >
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a href="https://realtool-demo.herokuapp.com/" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/realtool-mockup.png" />
                   </div>
                 </a>
               </div>
@@ -147,29 +245,93 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
+                <h3 class="project-wrapper__text-title">Waitline</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Waitline is a mobile queue dual-app (one for clients,
+                    another one for sellers) that allows customers to save time
+                    by joining lines virtually. It has mapping for registered
+                    stores, push notifications, user-reporting system and more.
                   </p>
+                  <h4>Technologies used:</h4>
+                  <div class="stack-list">
+                    <span
+                      class="iconify"
+                      data-icon="logos:django"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="logos:graphene"
+                      data-inline="false"
+                    ></span
+                    ><span
+                      class="iconify"
+                      data-icon="logos:postgresql"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="logos:graphql"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="logos:react"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="file-icons:apollo"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="cib:expo"
+                      data-inline="false"
+                      style="font-size: 4em"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="logos:typescript-icon"
+                      data-inline="false"
+                      style="font-size: 4em"
+                    ></span>
+                  </div>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                <div class="w-100 d-flex justify-content-between">
+                  <a
+                    target="_blank"
+                    class="cta-btn cta-btn--hero mr-1"
+                    href="https://expo.io/@mschere/projects/WaitLine-Sellers"
+                  >
+                    App for sellers
+                  </a>
+                  <a
+                    target="_blank"
+                    class="cta-btn cta-btn--hero ml-1"
+                    href="https://expo.io/@mschere/projects/WaitLine"
+                  >
+                    App for customers
+                  </a>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/MartinSchere/Line-Frontend"
+                >
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a
+                  href="https://expo.io/@mschere/projects/WaitLine"
+                  target="_blank"
+                >
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/mockup-waitline.png" />
                   </div>
                 </a>
               </div>
@@ -181,29 +343,90 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
+                <h3 class="project-wrapper__text-title">
+                  Borges 1885 webapp redesign
+                </h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    This is the re-design of Borges1885's website. It used to be
+                    an old, insecure and slow page that had a poor design. This
+                    version is fully modular, allowing the owner to customize it
+                    as needed.
                   </p>
+                  <h4>Technologies used:</h4>
+                  <div class="stack-list">
+                    <span
+                      class="iconify"
+                      data-icon="logos:django"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="vscode-icons:file-type-html"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="vscode-icons:file-type-sass"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="logos:graphene"
+                      data-inline="false"
+                    ></span
+                    ><span
+                      class="iconify"
+                      data-icon="logos:postgresql"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="logos:graphql"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="logos:react"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="file-icons:apollo"
+                      data-inline="false"
+                    ></span>
+                    <span
+                      class="iconify"
+                      data-icon="logos:typescript-icon"
+                      data-inline="false"
+                      style="font-size: 4em"
+                    ></span>
+                  </div>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://borges-1885.herokuapp.com/inicio"
+                >
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/MartinSchere/Borges"
+                >
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a
+                  href="https://borges-1885.herokuapp.com/inicio"
+                  target="_blank"
+                >
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/borges-mockup.png" />
                   </div>
                 </a>
               </div>
@@ -218,19 +441,16 @@
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
+        <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            [Put your call to action here]
-          </p>
+          <p class="contact-wrapper__text">Wanna get in touch?</p>
           <a
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href="mailto:martin.schere.salamanco@gmail.com"
+            >Send me an email</a
           >
+          <p class="mt-2 lead">You'll have an answer in less than a day</p>
         </div>
       </div>
     </section>
@@ -243,51 +463,20 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
+          <a
+            href="https://stackoverflow.com/users/11556154/mart%c3%adn-schere"
+            target="_blank"
+          >
+            <i class="fa fa-stack-overflow fa-inverse"></i>
           </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
+          <a href="https://github.com/MartinSchere" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
-
         <hr />
-
-        <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2020 - Template developed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
-          </a>
-        </p>
-
-        <!-- Remove this paragraph once you setup your custom portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
       </div>
     </footer>
     <!-- /END Footer Section -->
   </body>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </html>

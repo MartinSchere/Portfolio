@@ -1,0 +1,20 @@
+.navbar-top {
+  display: flex;
+  padding-top: 5rem;
+
+  a {
+    color: inherit;
+    font-weight: bold;
+    transition: 0.5s;
+    margin-right: 5%;
+    font-size: large;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  @include respond(phone) {
+    justify-content: center;
+  }
+}
