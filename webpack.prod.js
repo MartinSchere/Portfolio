@@ -35,7 +35,7 @@ module.exports = merge(common, {
       filename: "[name].[contentHash].css",
     }),
     new CopyWebpackPlugin({
-      patterns: [{ from: "assets" }],
+      patterns: [{ from: "src/assets" }],
     }),
   ],
   module: {
