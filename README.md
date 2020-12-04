@@ -1,3 +1,6 @@
-#My personal portfolio!
+# My portfolio
 
-This is a modified version of simplefolio. Thanks for open-sourcing this!
+This is where I host all of my relevant work and tell a little about me. 
+
+
+
